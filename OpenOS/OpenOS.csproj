@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>5c6ceb98-ca50-45eb-9e02-de75c59ebc28</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200614175305_AddingEmailUniqueUser.cs" />
+    <Compile Remove="Migrations\20200614175305_AddingEmailUniqueUser.Designer.cs" />
+    <Compile Remove="Migrations\20200619011926_UsuarioMigration.cs" />
+    <Compile Remove="Migrations\20200619011926_UsuarioMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200619012313_UsuarioMigration.cs" />
+    <Compile Remove="Migrations\20200619012313_UsuarioMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200619014443_UsuarioMigration2.cs" />
+    <Compile Remove="Migrations\20200619014443_UsuarioMigration2.Designer.cs" />
+    <Compile Remove="Migrations\20200619015135_UsuarioMigration2.cs" />
+    <Compile Remove="Migrations\20200619015135_UsuarioMigration2.Designer.cs" />
+    <Compile Remove="Migrations\20200619015202_UsuarioMigration2.cs" />
+    <Compile Remove="Migrations\20200619015202_UsuarioMigration2.Designer.cs" />
+    <Compile Remove="Migrations\20200619015252_UsuarioMigration2.cs" />
+    <Compile Remove="Migrations\20200619015252_UsuarioMigration2.Designer.cs" />
+    <Compile Remove="Migrations\20200619021205_UsuarioMigration.cs" />
+    <Compile Remove="Migrations\20200619021205_UsuarioMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200614165237_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200614165237_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200614175821_AddingEmailUniqueUser.cs" />
+    <Compile Remove="Migrations\20200614175821_AddingEmailUniqueUser.Designer.cs" />
+    <Compile Remove="Migrations\20200615005821_UserEnumRole.cs" />
+    <Compile Remove="Migrations\20200615005821_UserEnumRole.Designer.cs" />
+    <Compile Remove="Migrations\20200615203049_TableTicketType.cs" />
+    <Compile Remove="Migrations\20200615203049_TableTicketType.Designer.cs" />
+    <Compile Remove="Migrations\20200615230458_TablePriorityType.cs" />
+    <Compile Remove="Migrations\20200615230458_TablePriorityType.Designer.cs" />
+    <Compile Remove="Migrations\20200616001343_TableCategories.cs" />
+    <Compile Remove="Migrations\20200616001343_TableCategories.Designer.cs" />
+    <Compile Remove="Migrations\20200618235728_DepartmentAndChanges.cs" />
+    <Compile Remove="Migrations\20200618235728_DepartmentAndChanges.Designer.cs" />
+    <Compile Remove="Migrations\20200619021631_UsuarioMigration.cs" />
+    <Compile Remove="Migrations\20200619021631_UsuarioMigration.Designer.cs" />
+    <Compile Remove="Migrations\OpenOSContextModelSnapshot.cs" />
+    <Compile Remove="Models\Category.cs" />
+    <Compile Remove="Models\Department.cs" />
+    <Compile Remove="Models\PriorityType.cs" />
+    <Compile Remove="Models\TicketType.cs" />
+    <Compile Remove="Interfaces\ICategoryRepository.cs" />
+    <Compile Remove="Interfaces\IDepartmentRepository.cs" />
+    <Compile Remove="Interfaces\IPriorityTypeRepository.cs" />
+    <Compile Remove="Interfaces\ITicketTypeRepository.cs" />
+    <Compile Remove="Data\CategoryRepository.cs" />
+    <Compile Remove="Data\DepartmentRepository.cs" />
+    <Compile Remove="Data\PriorityTypeRepository.cs" />
+    <Compile Remove="Data\TicketTypeRepository.cs" />
+    <Compile Remove="Controllers\CategoriesController.cs" />
+    <Compile Remove="Controllers\DepartmentsController.cs" />
+    <Compile Remove="Controllers\PriorityTypesController.cs" />
+    <Compile Remove="Controllers\TicketTypesController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations" />
+  </ItemGroup>
+
+
+</Project>
